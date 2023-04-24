@@ -118,3 +118,6 @@ To connect the switch and the PC we use copper straight through cable.
 The cable looks correct because we can see the green triangles on the connections.
 When we first perform a ping between 2 computers which are connected through a switch. Then the switch stores
  
+------
+
+show mac-address-table
