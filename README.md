@@ -105,6 +105,7 @@ Here we need to set 2 things, one is the IP address and then the default gateway
  
  rename xyz.bin test.bin
  
+ quit
  
  
  
