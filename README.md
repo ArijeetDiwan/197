@@ -91,4 +91,20 @@ set the ip of computer
 Here we need to set 2 things, one is the IP address and then the default gateway. Which is going to be the IP address of the Server.
 
 ------------
-
+ ftp 192.168.1.1 (server ip)
+ 
+ give id,pwd of server
+ 
+ ------------
+ dir 
+ 
+ 
+ help
+ 
+ get xyz.bin
+ 
+ rename xyz.bin test.bin
+ 
+ 
+ 
+ 
