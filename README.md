@@ -107,5 +107,14 @@ Here we need to set 2 things, one is the IP address and then the default gateway
  
  quit
  
+ ------
  
+ swtich with 3 computer s(troubleshooting)
+ 
+ 
+ First step is to check the IP address. Go to the each computer and check if the PC is assigned an IP or not.
+Next step is to check the cable connection.
+To connect the switch and the PC we use copper straight through cable.
+The cable looks correct because we can see the green triangles on the connections.
+When we first perform a ping between 2 computers which are connected through a switch. Then the switch stores
  
