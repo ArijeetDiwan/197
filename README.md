@@ -3,7 +3,7 @@
 
 FTP Server and Troubleshooting
 
-
+use copper straight through cable to connect all 3 devices.  (server-switch-pc)
 ----------------------------
 -Creating FTP server and client
 -FTP commands
