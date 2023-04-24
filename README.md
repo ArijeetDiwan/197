@@ -4,6 +4,8 @@
 FTP Server and Troubleshooting
 
 use copper straight through cable to connect all 3 devices.  (server-switch-pc)
+
+We are using copper straight through cable. But to connect 2 computers directly we need to use crossover cable.
 ----------------------------
 -Creating FTP server and client
 -FTP commands
