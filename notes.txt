@@ -1,0 +1,147 @@
+SERVER
+Switch PT0
+PC
+
+
+copper staright through cable
+
+
+Assigning IP address to Computer and server.
+● Creating user and password for the server.
+● Run FTP commands
+
+First we will assign the IP address to the Server.
+Which is going to be 192.168.1.1
+Click on the server and select the Desktop tab and then
+click on the IP configuration button.
+
+Now the next step is to set the username and password for
+the server. Because you don’t want anyone to login to the
+server and access the files.
+For example if you are creating a server for the school
+then students have limited access and teachers have
+access to a lot of things such as exam papers, student
+records etc.
+So we will create a username and password then we will
+also define what type of access this user will have
+
+
+
+Double click on the server and select the services tab. On
+the left hand menu click on the FTP. here a page will open
+where we can set username and password.
+
+in the user name section we can use any username but for
+simplicity let’s set the username as admin and the
+password also we will set as admin.
+Note: Remember the username and password, because it
+is going to be used while accessing the files from the
+Server
+
+
+Below this we can choose what kind of access we want to
+give to this user.
+Here we have options such as:
+write-user can add the files to the server and create new
+files.
+read- user can read the files from the server.
+delete= user can delete the files from the server.
+rename- user can rename the file
+And at last list- user can list down or see all the files
+present in the server.
+For this user we will select all the options
+
+
+Once all the setup is done. Click on the add button and
+you will be able to see that the user has been created.
+
+——————————————
+
+User is created now we need to set the IP for the computer
+and we will be good to go.
+Double click on the computer and go to the desktop and
+select IP configuration.
+
+——————————
+
+Here we need to set 2 things, one is the IP address and
+then the default gateway. Which is going to be the IP
+address of the Server.
+
+——————————
+We have our server and client ready.
+Now open the terminal of the computer. We are going to
+run the file transfer commands.
+Close the current window and then open the command
+prompt.
+———————————
+from pc cmd prompt
+-------------------
+First we will login to the server.
+Run the command as ftp 192.168.1.1
+Ftp is the command and later is the IP address of the
+server.
+Now the computer will ask for the username, so write the
+username as admin.
+Then it will ask for the password
+
+————————————————
+
+
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ftp 192.168.1.1
+Trying to connect...192.168.1.1
+Connected to 192.168.1.1
+220- Welcome to PT Ftp server
+Username:admin
+331- Username ok, need password
+Password:
+230- Logged in
+(passive mode On)
+ftp>
+
+——————————————
+
+Now we are on the server. We can run various commands
+on this server. Such as copy, move, rename.
+But first we need to see what are the files present on this
+server.This can be done by dir command.
+Write dir and press enter.this will show the list of all the file
+on the server.
+
+
+Dir
+
+Help
+
+get asa923-k8.bin
+
+rename asa923-k8.bin test.bin
+
+quit
+dir
+---------------------------
+We are using copper straight through cable. But to connect
+2 computers directly we need to use crossover cable.
+
+————————————
+
+
+problem2
+
+
+
+Here we have a LAN. 4 computers are connected with a
+switch.
+But we are not able to see the mac address table in the
+switch.
+
+—————————
+
+remember
+
+To connect the switch and the PC we use copper straight
+through cable.
+But to connect
+2 computers directly we need to use crossover cable.
+
